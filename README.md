@@ -8,5 +8,6 @@ docker-compose up --build
 
 To run this api natively:
 ```
+cd app/
 uvicorn main:app --host 0.0.0.0 --port 3345
 ```
