@@ -1,5 +1,5 @@
 # api-ner-german
-This is an example for boilerplate api ml model
+This is an example for boilerplate api ml model which is named entity recognition model using pretrained model from spacy for german.
 
 To run this api using docker:
 ```
