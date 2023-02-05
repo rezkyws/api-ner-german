@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  ner-german:
+    image: "ner:german"
+    container_name: ner_german
+    restart: "always"
+    build: ./
+    ports:
+      - "3345:3345"
+    network_mode: bridge
