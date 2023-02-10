@@ -8,6 +8,7 @@ docker-compose up --build
 
 To run this api natively:
 ```
+pip install --no-cache-dir -r ./requirements/base.txt
 cd app/
 uvicorn main:app --host 0.0.0.0 --port 3345
 ```
